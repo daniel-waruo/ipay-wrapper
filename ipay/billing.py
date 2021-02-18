@@ -1,4 +1,4 @@
-from utils import parse_data, send_request, get_hash
+from .utils import parse_data, send_request, get_hash
 
 BILLING_ENDPOINT = 'https://apis.ipayafrica.com/ipay-billing/'
 

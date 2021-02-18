@@ -1,4 +1,4 @@
-from utils import parse_data, send_request, get_hash
+from .utils import parse_data, send_request, get_hash
 
 STK_ENDPOINT = 'https://apis.ipayafrica.com/payments/v2/transact/push/mpesa'
 

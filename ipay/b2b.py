@@ -1,4 +1,4 @@
-from utils import send_request, get_hash, parse_data
+from .utils import send_request, get_hash, parse_data
 
 B2B_ENDPOINT = 'https://apis.ipayafrica.com/b2b/v1/'
 
