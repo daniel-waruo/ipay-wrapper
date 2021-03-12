@@ -40,7 +40,7 @@ class B2B:
                 vendor_id=self.vendor_id,
                 transaction_id=transaction_id,
                 account=till_number,
-                amount=str(amount)
+                amount=amount
             ),
             url=self.get_url("mpesatill")
         )
@@ -83,7 +83,7 @@ class B2B:
             "vid": vendor_id,
             "reference": transaction_id,
             "account": account,
-            "amount": amount,
+            "amount": str(amount),
             "narration": narration,
             "curr": currency
         }

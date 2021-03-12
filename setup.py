@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ipay-daniel-waruo",  # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Daniel Waruo",
     author_email="waruodaniel@example.com",
     description="Python wrapper for the IPAY api",
